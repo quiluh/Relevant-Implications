@@ -5,3 +5,77 @@ body {
 * {
     box-sizing: inherit;
 }
+nav {
+    background-color: yellow;
+    top: 0;
+    position: sticky;
+    padding: 1%;
+}
+a {
+    filter: brightness(100%);
+    transition-duration: 300ms;
+}
+a:hover {
+    filter: brightness(120%);
+    transition-duration: 300ms;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.rowReverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#toggleNavItem {
+    display: none;
+}
+label[for="toggleNavItem"] {
+    user-select: none;
+    cursor: pointer;
+}
+.navItem {
+    padding: 1.2%;
+    margin: 1.2%;
+    background-color: rgb(166, 230, 71);
+    border-radius: 0.2rem;
+    text-decoration: none;
+    color: var(--textPrimary);
+    font-weight: bold;
+}
+.navItems {
+    width: 100%;
+    margin: 1%;
+}
+.textCenter {
+    text-align: center;
+}
+.bannerImage {
+    width: 100%;
+    height: calc(25vh + 25vw);
+    object-fit: cover;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+@media (width < 600px) {
+    .navItem {
+        display: none;
+    }
+    .navItems {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body:has(#toggleNavItem:checked) .navItem {
+        display: block;
+}
+}
+@media (width > 600px) {
+    .navHamburger {
+        display: none;
+    }
+}
