@@ -9,12 +9,13 @@
 body {
     box-sizing: border-box;
     margin: 0;
+    background-color: var(--palleteA);
 }
 * {
     box-sizing: inherit;
 }
 nav {
-    background-color: yellow;
+    background-color: var(--palleteB);
     top: 0;
     position: sticky;
     padding: 1%;
@@ -49,7 +50,7 @@ label[for="toggleNavItem"] {
 .navItem {
     padding: 1.2%;
     margin: 1.2%;
-    background-color: rgb(166, 230, 71);
+    background-color: var(--palleteD);
     border-radius: 0.2rem;
     text-decoration: none;
     color: var(--textPrimary);
