@@ -1,3 +1,11 @@
+:root {
+    --textPrimary: black;
+    --palleteA: #FCF7FF;
+    --palleteB: #C4CAD0;
+    --palleteC: #878C8F;
+    --palleteD: #A4969B;
+    --palleteE: #655560;
+}
 body {
     box-sizing: border-box;
     margin: 0;
