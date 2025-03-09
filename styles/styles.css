@@ -68,6 +68,10 @@ label[for="toggleNavItem"] {
     background-color: var(--palleteC);
     padding: 10%;
 }
+.bannerText {
+    font-weight: bolder;
+    font-size: calc(3vh + 3vw);
+}
 @media (width < 600px) {
     .navItem {
         display: none;
