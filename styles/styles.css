@@ -1,10 +1,13 @@
 :root {
-    --textPrimary: black;
+    --textPrimary: #211e22;
     --palleteA: #FCF7FF;
     --palleteB: #C4CAD0;
     --palleteC: #878C8F;
     --palleteD: #A4969B;
     --palleteE: #655560;
+}
+h1 {
+    color: var(--textPrimary);
 }
 body {
     box-sizing: border-box;
