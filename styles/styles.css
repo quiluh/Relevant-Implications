@@ -64,12 +64,9 @@ label[for="toggleNavItem"] {
 .textCenter {
     text-align: center;
 }
-.bannerImage {
-    width: 100%;
-    height: calc(25vh + 25vw);
-    object-fit: cover;
-    user-select: none;
-    -webkit-user-drag: none;
+.bannerDiv {
+    background-color: var(--palleteC);
+    padding: 10%;
 }
 @media (width < 600px) {
     .navItem {
