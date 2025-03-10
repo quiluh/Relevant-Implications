@@ -75,6 +75,9 @@ label[for="toggleNavItem"] {
     font-weight: bolder;
     font-size: calc(3vh + 3vw);
 }
+.headerText {
+    font-size: calc(1.5vh + 1.7vw);
+}
 .middleBox {
     background-color: var(--palleteB);
     width: 80%;
