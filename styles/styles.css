@@ -78,8 +78,11 @@ label[for="toggleNavItem"] {
 .middleBox {
     background-color: var(--palleteB);
     width: 80%;
+    margin: 5%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 0.5rem;
+    padding: 1%;
 }
 @media (width < 600px) {
     .navItem {
