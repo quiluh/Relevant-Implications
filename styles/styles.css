@@ -44,6 +44,12 @@ a:hover {
     display: flex;
     flex-direction: row-reverse;
 }
+.floatLeft{
+    float: left;
+}
+.floatRight {
+    float: right;
+}
 #toggleNavItem {
     display: none;
 }
