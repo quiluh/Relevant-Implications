@@ -47,6 +47,9 @@ a:hover {
 .spaceEvenly {
     justify-content: space-evenly;
 }
+.spaceBetween {
+    justify-content: space-between;
+}
 #toggleNavItem {
     display: none;
 }
