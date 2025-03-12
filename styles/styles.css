@@ -11,6 +11,7 @@ h1 {
 }
 p {
     line-height: 1.5;
+    font-size: calc(1vw + 1vh);
 }
 body {
     box-sizing: border-box;
