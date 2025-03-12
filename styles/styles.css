@@ -93,6 +93,9 @@ label[for="toggleNavItem"] {
     border-radius: 0.5rem;
     padding: 1%;
 }
+.w50 {
+    width: 50%;
+}
 @media (width < 600px) {
     .navItem {
         display: none;
