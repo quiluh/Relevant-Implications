@@ -116,7 +116,7 @@ label[for="toggleNavItem"] {
         flex-direction: column;
         align-items: center;
     }
-    .w50 {
+    .col.w50 {
         width: 100%;
     }
 }
