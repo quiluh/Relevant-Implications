@@ -111,7 +111,14 @@ label[for="toggleNavItem"] {
     }
     body:has(#toggleNavItem:checked) .navItem {
         display: block;
-}
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .w50 {
+        width: 100%;
+    }
 }
 @media (width > 600px) {
     .navHamburger {
