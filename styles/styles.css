@@ -105,6 +105,9 @@ label[for="toggleNavItem"] {
     border-radius: 0.5rem;
     margin: 1%;
 }
+.w25 {
+    width: 25%;
+}
 .w50 {
     width: 50%;
 }
