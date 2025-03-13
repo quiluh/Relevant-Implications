@@ -110,6 +110,12 @@ label[for="toggleNavItem"] {
     margin-left: auto;
     margin-right: auto;
 }
+.hoverBigger {
+    transition: 0.2s;
+}
+.hoverBigger:hover {
+    transform: scale(1.02);
+}
 @media (width < 600px) {
     .navItem {
         display: none;
