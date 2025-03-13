@@ -121,6 +121,13 @@ label[for="toggleNavItem"] {
 .hoverBigger:hover {
     transform: scale(1.02);
 }
+.card {
+    background-color: var(--palleteB);
+}
+.cardImage {
+    object-fit: cover;
+    height: calc(5.5vh + 5.5vw);
+}
 @media (width < 600px) {
     .navItem {
         display: none;
