@@ -8,6 +8,13 @@
 }
 h1 {
     color: var(--textPrimary);
+    font-size: calc(3vh + 3vw);
+}
+h2 {
+    font-size: calc(1.5vh + 1.7vw);
+}
+h3 {
+    font-size: calc(1vh + 1.2vw);
 }
 p {
     line-height: 1.5;
@@ -83,13 +90,6 @@ label[for="toggleNavItem"] {
 }
 .bannerText {
     font-weight: bolder;
-    font-size: calc(3vh + 3vw);
-}
-.headerText {
-    font-size: calc(1.5vh + 1.7vw);
-}
-.secondaryText {
-    font-size: calc(1vh + 1.2vw);
 }
 .middleBox {
     background-color: var(--palleteB);
