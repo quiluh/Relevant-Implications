@@ -97,12 +97,12 @@ label[for="toggleNavItem"] {
     margin: 5%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 0.5rem;
-    padding: 1%;
+    border-radius: 0.25rem;
+    padding: 2%;
 }
 .innerBox {
     background-color: var(--palleteD);
-    border-radius: 0.5rem;
+    border-radius: 0.25rem;
     margin: 1%;
 }
 .w25 {
