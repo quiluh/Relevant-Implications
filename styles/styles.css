@@ -72,7 +72,7 @@ label[for="toggleNavItem"] {
     padding: 1.2%;
     margin: 1.2%;
     background-color: var(--palleteD);
-    border-radius: 0.2rem;
+    border-radius: 0.25rem;
     text-decoration: none;
     color: var(--textPrimary);
     font-weight: bold;
