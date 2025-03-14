@@ -126,10 +126,14 @@ label[for="toggleNavItem"] {
 }
 .card {
     background-color: var(--palleteB);
+    width: fit-content;
+    padding: 2%;
+    border-radius: 0.25rem;
 }
 .cardImage {
     object-fit: cover;
     height: calc(5.5vh + 5.5vw);
+    border-radius: 0.25rem;
 }
 @media (width < 600px) {
     .navItem {
