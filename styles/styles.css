@@ -171,7 +171,8 @@ label[for="toggleNavItem"] {
         width: 100%;
     }
     .cardImage {
-        height: calc(9.5vh + 9.5vw);
+        height: calc(11.5vh + 11.5vw);
+        width: calc(11.5vh + 11.5vw);
     }
     
 }
