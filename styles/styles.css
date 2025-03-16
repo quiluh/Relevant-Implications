@@ -147,6 +147,9 @@ label[for="toggleNavItem"] {
     height: calc(5.5vh + 5.5vw);
     border-radius: 0.25rem;
 }
+.cardText {
+    font-size: calc(1.5vh + 0.5vw);
+}
 @media (width < 600px) {
     .navItem {
         display: none;
