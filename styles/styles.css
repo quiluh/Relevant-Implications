@@ -144,7 +144,8 @@ label[for="toggleNavItem"] {
 }
 .cardImage {
     object-fit: cover;
-    height: calc(5.5vh + 5.5vw);
+    height: calc(8.5vh + 8.5vw);
+    width: calc(8.5vh + 8.5vw);
     border-radius: 0.25rem;
 }
 .cardText {
