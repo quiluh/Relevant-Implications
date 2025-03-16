@@ -81,6 +81,9 @@ label[for="toggleNavItem"] {
     width: 100%;
     margin: 1%;
 }
+.navHamburger {
+    display: none;
+}
 .textCenter {
     text-align: center;
 }
@@ -159,10 +162,5 @@ label[for="toggleNavItem"] {
     }
     .cardImage {
         height: calc(9.5vh + 9.5vw);
-    }
-}
-@media (width > 600px) {
-    .navHamburger {
-        display: none;
     }
 }
