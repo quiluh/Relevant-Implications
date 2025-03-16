@@ -157,6 +157,9 @@ label[for="toggleNavItem"] {
     .col.w50 {
         width: 100%;
     }
+    .cardImage {
+        height: calc(9.5vh + 9.5vw);
+    }
 }
 @media (width > 600px) {
     .navHamburger {
