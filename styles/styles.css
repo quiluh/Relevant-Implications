@@ -50,6 +50,10 @@ a:hover {
 .row {
     display: flex;
     flex-direction: row;
+}
+.grid {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 .rowReverse {
@@ -168,6 +172,7 @@ label[for="toggleNavItem"] {
         display: block;
     }
     .row {
+        flex-direction: column;
         align-items: center;
     }
     .col.w50 {
