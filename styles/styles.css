@@ -137,6 +137,7 @@ label[for="toggleNavItem"] {
     padding: 5%;
     border-radius: 0.25rem;
     cursor: pointer;
+    user-select: none;
 }
 .card:hover {
     background-color: var(--palleteD);
@@ -147,6 +148,8 @@ label[for="toggleNavItem"] {
     height: calc(8.5vh + 8.5vw);
     width: calc(8.5vh + 8.5vw);
     border-radius: 0.25rem;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 .cardText {
     font-size: calc(1.5vh + 0.5vw);
