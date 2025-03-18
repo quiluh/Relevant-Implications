@@ -116,6 +116,9 @@ label[for="toggleNavItem"] {
     border-radius: 0.25rem;
     margin: 1%;
 }
+.p1 {
+    padding: 1%;
+}
 .m2 {
     margin: 2%;
 }
