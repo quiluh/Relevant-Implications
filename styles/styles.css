@@ -126,6 +126,9 @@ label[for="toggleNavItem"] {
 .w75 {
     width: 75%;
 }
+.w100 {
+    width: 100%;
+}
 .mxAuto {
     margin-left: auto;
     margin-right: auto;
