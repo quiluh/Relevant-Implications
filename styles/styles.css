@@ -92,6 +92,10 @@ label[for="toggleNavItem"] {
 .textCenter {
     text-align: center;
 }
+.textDecorationNone {
+    text-decoration: none;
+    color: var(--textPrimary);
+}
 .bannerDiv {
     background-color: var(--palleteC);
     padding: 10%;
