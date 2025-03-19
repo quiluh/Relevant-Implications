@@ -37,14 +37,6 @@ nav {
     padding: 1%;
     z-index: 1;
 }
-a {
-    filter: brightness(100%);
-    transition-duration: 300ms;
-}
-a:hover {
-    filter: brightness(120%);
-    transition-duration: 300ms;
-}
 .col {
     display: flex;
     flex-direction: column;
@@ -84,6 +76,11 @@ label[for="toggleNavItem"] {
     text-decoration: none;
     color: var(--textPrimary);
     font-weight: bold;
+    filter: brightness(100%);
+    transition-duration: 300ms;
+}
+.navItem:hover {
+    filter: brightness(120%);
 }
 .navItems {
     width: 100%;
