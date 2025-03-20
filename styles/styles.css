@@ -40,7 +40,7 @@ nav {
 .col {
     display: flex;
     flex-direction: column;
-    width: calc(50% - 40px);
+    width: calc(20% - 40px);
 }
 .row {
     display: flex;
@@ -192,9 +192,5 @@ label[for="toggleNavItem"] {
     }
     .col.w50 {
         width: 50%;
-    }
-    .cardImage {
-        height: calc(11.5vh + 11.5vw);
-        width: calc(11.5vh + 11.5vw);
     }
 }
