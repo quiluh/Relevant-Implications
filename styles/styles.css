@@ -6,6 +6,11 @@
     --palleteD: #A4969B;
     --palleteE: #655560;
 }
+p, h1, h2, h3 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
 h1 {
     color: var(--textPrimary);
     font-size: calc(3vh + 3vw);
