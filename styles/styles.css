@@ -40,7 +40,7 @@ nav {
 .col {
     display: flex;
     flex-direction: column;
-    width: calc(20% - 40px);
+    width: calc(33% - 40px);
 }
 .row {
     display: flex;
@@ -148,7 +148,7 @@ label[for="toggleNavItem"] {
 .card {
     background-color: var(--palleteB);
     transition: 0.2s;
-    width: fit-content;
+    width: 100%;
     padding: 5%;
     border-radius: 0.25rem;
     cursor: pointer;
