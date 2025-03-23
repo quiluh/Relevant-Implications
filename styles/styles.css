@@ -174,9 +174,9 @@ label[for="toggleNavItem"] {
     -webkit-user-drag: none;
 }
 .cardText {
-    font-size: calc(1.5vh + 0.5vw);
+    text-align: center;
 }
-@media (width < 600px) {
+@media (max-width: 600px) {
     .navItem {
         display: none;
     }
@@ -197,5 +197,13 @@ label[for="toggleNavItem"] {
     }
     .col.w50 {
         width: 50%;
+    }
+    .cardText {
+        font-size: calc(1.5vw + 1vh);
+    }
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+    .cardText {
+        font-size: calc(1.9vw + 1vh);
     }
 }
