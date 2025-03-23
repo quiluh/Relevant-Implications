@@ -13,10 +13,10 @@ p, h1, h2, h3 {
 }
 h1 {
     color: var(--textPrimary);
-    font-size: calc(3vh + 3vw);
+    font-size: calc(3vh + 2.7vw);
 }
 h2 {
-    font-size: calc(1.5vh + 1.7vw);
+    font-size: calc(1.5vh + 1.2vw);
 }
 h3 {
     font-size: calc(1vh + 1.2vw);
@@ -107,6 +107,9 @@ label[for="toggleNavItem"] {
 }
 h1.bannerText {
     font-weight: bolder;
+}
+h2.bannerText {
+    font-weight: bold;
 }
 .middleBox {
     background-color: var(--palleteB);
