@@ -6,6 +6,9 @@
     --palleteD: #A4969B;
     --palleteE: #655560;
 }
+body {
+    line-height: 1.3;
+}
 p, h1, h2, h3 {
     word-wrap: break-word;
     overflow-wrap: break-word;
