@@ -105,7 +105,7 @@ label[for="toggleNavItem"] {
     background-color: var(--palleteC);
     padding: 10%;
 }
-.bannerText {
+h1.bannerText {
     font-weight: bolder;
 }
 .middleBox {
