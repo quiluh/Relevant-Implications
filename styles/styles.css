@@ -14,20 +14,6 @@ p, h1, h2, h3 {
     overflow-wrap: break-word;
     white-space: normal;
 }
-h1 {
-    color: var(--textPrimary);
-    font-size: calc(3vh + 2.7vw);
-}
-h2 {
-    font-size: calc(1.5vh + 1.2vw);
-}
-h3 {
-    font-size: calc(1vh + 1.2vw);
-}
-p {
-    line-height: 1.5;
-    font-size: calc(1vw + 1vh);
-}
 body {
     box-sizing: border-box;
     margin: 0;
@@ -210,12 +196,34 @@ h2.bannerText {
     .col.w50 {
         width: 50%;
     }
-    .cardText {
-        font-size: calc(1.5vw + 1vh);
+    h1 {
+        color: var(--textPrimary);
+        font-size: calc(2.7vw + 2.7vh);
+    }
+    h2 {
+        font-size: calc(1.4vw + 1vh);
+    }
+    h3 {
+        font-size: calc(1.2vw + 1vh);
+    }
+    p {
+        line-height: 1.5;
+        font-size: calc(1vw + 1vh);
     }
 }
 @media (min-width: 600px) and (max-width: 1200px) {
-    .cardText {
+    h1 {
+        color: var(--textPrimary);
+        font-size: calc(3.2vw + 2.7vh);
+    }
+    h2 {
         font-size: calc(1.9vw + 1vh);
+    }
+    h3 {
+        font-size: calc(1.7vw + 1vh);
+    }
+    p {
+        line-height: 1.5;
+        font-size: calc(1.5vw + 1vh);
     }
 }
