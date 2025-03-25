@@ -79,6 +79,14 @@ label[for="toggleNavItem"] {
 .navItems {
     width: 100%;
     margin: 1%;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, opacity 0.25s ease-out;
+}
+body:has(#toggleNavItem:checked) .navItems {
+    max-height: 50px;
+    opacity: 1;
 }
 .navHamburger {
     display: none;
@@ -189,7 +197,7 @@ h2.bannerText {
     .navHamburger {
         display: block;
     }
-    body:has(#toggleNavItem:checked) .navItem {
+    .navItem {
         display: block;
     }
     .row {
