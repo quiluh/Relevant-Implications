@@ -80,13 +80,9 @@ label[for="toggleNavItem"] {
     width: 100%;
     margin: 1%;
     max-height: 0;
-    opacity: 0;
+    opacity: 100;
     overflow: hidden;
-    transition: max-height 0.3s ease-out, opacity 0.25s ease-out;
-}
-body:has(#toggleNavItem:checked) .navItems {
-    max-height: 50px;
-    opacity: 1;
+    transition: max-height 0.3s ease-out;
 }
 .navHamburger {
     display: none;
@@ -186,13 +182,13 @@ h2.bannerText {
     h1, h2, h3, p {
         transition: font-size 0.1s ease-in-out;
     }
-    .navItem {
-        display: none;
-    }
     .navItems {
         width: 50%;
         margin-left: auto;
         margin-right: auto;
+    }
+    body:has(#toggleNavItem:checked) .navItems {
+        max-height: 50px;
     }
     .navHamburger {
         display: block;
