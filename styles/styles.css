@@ -175,6 +175,9 @@ h2.bannerText {
     text-align: center;
 }
 @media (max-width: 600px) {
+    h1, h2, h3, p {
+        transition: font-size 0.1s ease-in-out;
+    }
     .navItem {
         display: none;
     }
@@ -212,6 +215,9 @@ h2.bannerText {
     }
 }
 @media (min-width: 600px) and (max-width: 1200px) {
+    h1, h2, h3, p {
+        transition: font-size 0.1s ease-in-out;
+    }
     h1 {
         color: var(--textPrimary);
         font-size: calc(3.2vw + 2.7vh);
