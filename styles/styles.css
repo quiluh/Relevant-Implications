@@ -185,10 +185,9 @@ h2.bannerText {
         margin-right: auto;
         max-height: 0;
         opacity: 0;
-        transition: max-height 0.3s ease-out;
     }
     body:has(#toggleNavItem:checked) .navItems {
-        transition: max-height 0.3s ease-out;
+        transition: max-height 0.3s ease-out, opacity 0.25s ease-out;
         max-height: 50px;
         opacity: 1;
     }
@@ -218,6 +217,11 @@ h2.bannerText {
     p {
         line-height: 1.5;
         font-size: calc(1vw + 1vh);
+    }
+}
+@media (max-width: 599px) {
+    .navItems {
+        transition: max-height 0.3s ease-out, opacity 0.25s ease-out;
     }
 }
 @media (min-width: 600px) and (max-width: 1200px) {
