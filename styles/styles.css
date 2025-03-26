@@ -216,7 +216,7 @@ h2.bannerText {
         font-size: calc(1.4vw + 1vh);
     }
     h3 {
-        font-size: calc(1.2vw + 1vh);
+        font-size: calc(1.0vw + 1vh);
     }
     p {
         line-height: 1.5;
@@ -235,7 +235,7 @@ h2.bannerText {
         font-size: calc(1.9vw + 1vh);
     }
     h3 {
-        font-size: calc(1.7vw + 1vh);
+        font-size: calc(1.5vw + 1vh);
     }
     p {
         line-height: 1.5;
