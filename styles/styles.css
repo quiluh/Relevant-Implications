@@ -175,6 +175,9 @@ h2.bannerText {
 .cardText {
     text-align: center;
 }
+.directingHeader {
+    
+}
 @media (max-width: 600px) {
     h1, h2, h3, p {
         transition: font-size 0.1s ease-in-out;
