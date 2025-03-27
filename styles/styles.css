@@ -39,6 +39,7 @@ nav {
 .row {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
 }
 .grid {
     display: flex;
