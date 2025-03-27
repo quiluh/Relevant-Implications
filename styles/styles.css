@@ -222,7 +222,7 @@ h2.bannerText {
     }
     h1 {
         color: var(--textPrimary);
-        font-size: calc(2.7vw + 2.7vh);
+        font-size: calc(3.2vw + 2.9vh);
     }
     h2 {
         font-size: calc(1.4vw + 1vh);
@@ -241,7 +241,7 @@ h2.bannerText {
     }
     h1 {
         color: var(--textPrimary);
-        font-size: calc(3.2vw + 2.7vh);
+        font-size: calc(3.7vw + 2.9vh);
     }
     h2 {
         font-size: calc(1.9vw + 1vh);
