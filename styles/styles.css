@@ -179,6 +179,13 @@ h2.bannerText {
 .cardText {
     text-align: center;
 }
+.directingHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
 @media (max-width: 600px) {
     h1, h2, h3, p {
         transition: font-size 0.1s ease-in-out;
